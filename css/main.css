@@ -96,6 +96,7 @@ a {
   src: local(""), url("../fonts/FilmP3Bold.woff2") format("woff2"), url("../fonts/FilmP3Bold.woff") format("woff");
 }
 .container {
+  outline: 2px solid tomato;
   margin: 0 auto;
   padding: 0px 15px;
 }
@@ -118,7 +119,6 @@ a {
 }
 
 .logo {
-  margin-right: 52px;
   color: var(--text-white-color);
   font-family: "FilmP3";
   font-style: normal;
@@ -137,8 +137,9 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 @media screen and (min-width: 1024px) {
   .main-nav {

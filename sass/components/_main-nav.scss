@@ -1,6 +1,6 @@
 .main-nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 
   @media screen and (min-width: 1024px){
     justify-content: space-between;

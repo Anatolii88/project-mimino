@@ -96,7 +96,6 @@ a {
   src: local(""), url("../fonts/FilmP3Bold.woff2") format("woff2"), url("../fonts/FilmP3Bold.woff") format("woff");
 }
 .container {
-  outline: 2px solid tomato;
   margin: 0 auto;
   padding: 0px 15px;
 }

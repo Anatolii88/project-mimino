@@ -1,0 +1,14 @@
+.logo {
+  margin-right: 52px;
+  color: var(--text-white-color);
+  font-family: 'FilmP3';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.08;
+    letter-spacing: 0.3em;
+
+    @media screen and (min-width: 1280px){
+      margin-right: 135px;
+    }
+}

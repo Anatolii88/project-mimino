@@ -1,0 +1,22 @@
+.hero-social {
+display: flex;
+
+@media screen and (min-width: 1280px){
+  display: none;
+}
+}
+
+.hero-social__item {
+width: 24px;
+height: 24px;
+}
+
+.hero-social__item:not(:last-child){
+  margin-right: 20px;
+}
+
+.hero-social__link {
+display: flex;
+fill: var(--social-icon-color);
+
+}

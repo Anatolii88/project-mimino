@@ -1,0 +1,23 @@
+.hero-footer {
+display: flex;
+justify-content: center;
+align-items: baseline;
+
+
+@media screen and (min-width: 1024px){
+  margin-bottom: 25px;
+  justify-content: space-between;
+}
+}
+
+.hero-footer-location {
+
+}
+
+.hero-footer-location__link {
+
+}
+
+.hero-footer-location-container__svg {
+
+}
